@@ -1,0 +1,40 @@
+.header {}
+
+.logo {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+
+}
+
+.nav-menu {}
+
+.nav-list {
+    display: none;
+}
+
+.nav-item {}
+
+.nav-item:hover,
+.nav-item:focus {}
+
+.nav-menu-link {}
+
+.nav-item:hover .nav-menu-link,
+.nav-item:focus .nav-menu-link {}
+
+.soc-list {
+    display: none;
+}
+
+.soc-item {}
+
+.soc-link {}
+
+.soc-link:hover,
+.soc-link:focus {}
+
+.burger-btn {}
+
+.burger-icon {}
