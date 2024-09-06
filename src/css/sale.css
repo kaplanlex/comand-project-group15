@@ -75,7 +75,6 @@
   border-radius: 30px;
   background-color: #3350e9;
   padding: 48px 24px;
-  max-width: 335px;
 }
 .sale-review-title-box {
   display: flex;
@@ -211,7 +210,6 @@
   .sale-review {
     border-radius: 50px;
     padding: 60px;
-    max-width: 704px;
   }
   .sale-review-title {
     font-size: 32px;
@@ -252,9 +250,6 @@
   }
   .sale-gen-img-card {
     width: 428px;
-  }
-  .sale-review {
-    max-width: 530px;
   }
   .sale-gen-img {
     margin: 80px 50px;
