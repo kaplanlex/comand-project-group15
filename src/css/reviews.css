@@ -1,9 +1,7 @@
 /* container for 375 */
 
-.reviews-container {
+.reviews {
     min-width: 375px;
-    margin: 0 20px;
-    /* padding: 20px 0; */
 }
 
 /* styles for the section title named 'reviews' */
@@ -22,8 +20,11 @@ margin-left: 20px;
 
 .reviews-list {
     display: flex;
+    margin-left: 0;
+    margin-right: 0;
     width: 100%;
     flex-wrap: nowrap;
+    flex-direction: row;
     overflow-x: auto; /* horizontal swiper */
 }
 
@@ -41,11 +42,12 @@ border-radius: 30px;
 padding: 32px 36px;
 min-width: 335px;
 height: 262px;
-margin: 0 20px 60px 0;
+margin: 0 20px 60px 20px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: column;
+box-sizing: border-box;
 }
 
 /* styles for the reviews image */
@@ -114,7 +116,7 @@ display: flex;
     }
 
     .reviews-list {
-    width: 1150px;
+    width: 1280px;
     margin-left: 65px;
     margin-right: 65px;
     /* margin-left: auto;
