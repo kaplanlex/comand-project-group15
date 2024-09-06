@@ -1,3 +1,5 @@
+/* upd 6/09 */
+
 /* container for 375 */
 
 .reviews {
@@ -20,7 +22,6 @@ line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 margin-bottom: 24px;
-margin-left: 20px;
 }
 
 /* styles for the whole ul */
@@ -28,7 +29,7 @@ margin-left: 20px;
 .reviews-list {
     display: flex;
     gap: 20px;
-    overflow-x: auto; /* horizontal swiper */
+    overflow-x: auto;
 }
 
 /* hiding the overflow (scroll is not visible */
@@ -87,7 +88,7 @@ text-align: center;
 display: flex;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
 
     .reviews {
     max-width: 768px;
@@ -108,34 +109,44 @@ display: flex;
 }
 
     .reviews-list {
-    display: flex;
+    /* display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     overflow-x: auto;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 0; */
+    min-width: 704px;
+
 }
 
 .reviews-list-item {
     min-width: 344px;
     height: 272px;
-    margin: 0 16px 80px 0;
     box-sizing: border-box;
 }
-
 }
+
 @media screen and (min-width: 1280px) {
     .reviews {
-    max-width: 1280px;
-    justify-content: center;
-    }
-
-    .reviews-section-title {
+    /* max-width: 1280px; */
     margin-left: 65px;
+    margin-right: 65px;
     }
 
     .reviews-list {
-    width: 100%;
-    flex-direction: row;
+    min-width: 1150px;
+    overflow-x: hidden;
+    width: calc(100% / 3 - 20px);
+    }
+
+    .reviews-section-title {
+    font-size: 48px;
+    }
+
+    .reviews-list-item {
+    min-width: 370px;
+    height: 272px;
+    display: flex;
+    gap: 20px;
     }
 }
