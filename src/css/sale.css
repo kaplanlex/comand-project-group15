@@ -2,11 +2,12 @@
 
 .sale {
   background-color: #fff;
-}
-.container-sale {
-  max-width: 375px;
-  padding: 0 20px;
   margin: 0 auto;
+  padding: 0;
+}
+.sale > .container {
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .title-sec {
@@ -26,8 +27,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: auto;
-  height: auto;
 }
 
 .sale-galery {
@@ -74,8 +73,9 @@
 .sale-review {
   border-radius: 30px;
   background-color: #3350e9;
-  padding: 48px 24px;
+  padding: 48px 28px;
 }
+
 .sale-review-title-box {
   display: flex;
   align-items: flex-start;
@@ -144,6 +144,7 @@
   color: rgba(251, 251, 251, 0.7);
   text-align: left;
   margin-bottom: 28px;
+  width: 279px;
 }
 .sale-teg-box {
   width: 279px;
@@ -164,11 +165,10 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 7px 11px;
 }
 @media screen and (min-width: 768px) {
-  .container-sale {
-    max-width: 768px;
+  .sale > .container {
     padding: 0 32px;
   }
   .title-sec {
@@ -230,6 +230,7 @@
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 40px;
+    width: 584px;
   }
   .sale-teg-box {
     width: 398px;
@@ -241,8 +242,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container-sale {
-    max-width: 1280px;
+  .sale > .container {
     padding: 0 65px;
   }
   .sale-box {
@@ -256,5 +256,8 @@
   }
   .sale-review-title {
     width: 389px;
+  }
+  .sale-review-text {
+    width: 410px;
   }
 }
