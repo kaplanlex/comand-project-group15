@@ -27,6 +27,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.form-div {
+    height: 456px;
+}
 .p-form {
     font-weight: 500;
     font-size: 16px;
@@ -50,13 +53,53 @@ body {
     max-height: 52px;
     width: 460px;
 }
+.input-form::placeholder {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #0c0c0c;
+}
 .input-form:hover,
 .input-form:focus {
     border-color: #3350e9;
+} 
+.email-div {
+    margin-top: 18px;
 }
-.input-form::placeholder {
+.textarea-class {
+    background-color: transparent;
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    width: 460px;
+    padding: 16px;
+}
+.textarea-div {
+    height: 90px;
+    margin-top: 18px;
+}
+.textarea-div-class {
+    display: flex;
+        height: 90px;
+}
+.textarea-class::placeholder {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #0c0c0c;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #0c0c0c;
+}
+.button {
+    width: 160px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: #3350e9;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #fbfbfb;
+    border: none;
+    margin-top: 32px;
 }
