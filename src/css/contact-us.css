@@ -1,18 +1,27 @@
+.container {
+    width: 1150px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+body {
+    font-family: "Gilroy", sans-serif;
+}
 .contact-us-h {
     margin-bottom: 40px;
 }
 
 .div-form {
     background-color: #f3f3f3;
-    ;
     border-radius: 50px;
     width: 580px;
     height: 556px;
 }
 
 .form {
-    width: 460px;
-    height: 456px;
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 .p-form {
@@ -26,32 +35,49 @@
 .input-dive {
     position: relative;
     display: flex;
-}
-
-.p {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #0c0c0c;
-    display: block;
+    height: 52px;
 }
 
 .input-form {
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-left: 18px;
+    padding-left: 16px;
     width: 100%;
     border-radius: 12px;
     border: 1px solid rgba(12, 12, 12, 0.15);
     background-color: transparent;
     outline: transparent;
     resize: none;
+    display: block;
 }
 
 .inside-div {
     padding: 50px 60px;
+}
+.input-form::placeholder {
+    color: #0c0c0c;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.textarea-class {
+    border: 1px solid rgba(12, 12, 12, 0.15);
+    border-radius: 12px;
+    padding:16px 16px;
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
+}
+.textarea-div {
+    width: 460px;
+}
+.textarea-class::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #0c0c0c;
 }
