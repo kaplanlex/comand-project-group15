@@ -72,6 +72,7 @@ body {
     border-radius: 12px;
     width: 460px;
     padding: 16px;
+    resize: none;
 }
 .textarea-div {
     height: 90px;
