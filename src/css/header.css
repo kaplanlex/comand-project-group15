@@ -1,4 +1,9 @@
 .header {}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .logo {
     font-weight: 500;
