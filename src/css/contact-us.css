@@ -117,6 +117,7 @@ body {
 .textarea-class:hover,
 .textarea-class:focus {
     border-color: #3350e9;
+    outline: none;
 }
 .button {
     /* width: 160px;
