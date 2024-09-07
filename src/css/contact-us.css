@@ -4,18 +4,11 @@
     padding-right: 65px;
 } */
 
-.container {
-    min-width: 320px;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+
 picture {
     flex-shrink: 0;
 }
-body {
-    font-family: "Gilroy", sans-serif;
-}
+
 .contact-us-h {
     font-weight: 600;
     /* font-size: 48px; */
