@@ -12,6 +12,10 @@
     color: #0c0c0c;
 
 }
+.header-logo {
+    display: block;
+    padding: 7,5px 0;
+}
 
 .nav-menu {}
 
@@ -44,3 +48,10 @@
 .burger-btn {}
 
 .burger-icon {}
+
+@media screen and (min-width: 768px) {
+
+}
+
+
+@media screen and (min-width: 1280px) {}
