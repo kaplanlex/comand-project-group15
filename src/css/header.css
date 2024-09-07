@@ -1,7 +1,7 @@
 .header {
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-container {
     display: flex;
@@ -21,11 +21,7 @@
 .header-logo {
     display: block;
     padding: 7.5px 0;
-
 }
-
-
-
 .nav-list {
     display: none;
 }
@@ -49,14 +45,7 @@
 }
 
 .mobile-menu {
-background-image: linear-gradient(rgba(12,
-            12,
-            12,
-            0.92), rgba(12,
-            12,
-            12,
-            0.92)),
-    url(../img/header/image71-mobile.jpg);
+background-image: url(../img/header/image71-mobile.jpg);
 
     position: fixed;
     top: 0;
@@ -72,14 +61,7 @@ background-image: linear-gradient(rgba(12,
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .mobile-menu {
-        background-image: linear-gradient(rgba(12,
-            12,
-            12,
-            0.92), rgba(12,
-                12,
-                12,
-                0.92)),
-            url(../img/header/image71-mobile2x.jpg);
+        background-image: url(../img/header/image71-mobile2x.jpg);
     }
 }
 .mobile-menu.is-open {
@@ -91,9 +73,7 @@ background-image: linear-gradient(rgba(12,
     position: relative;
     padding-top: 240px;
     padding-bottom: 40px;
-
     display: flex;
-
     flex-direction: column;
     height: 100%;
 }
@@ -102,15 +82,10 @@ background-image: linear-gradient(rgba(12,
     top: 20px;
     right: 20px;
     border: none;
-
-
     background: transparent;
-    
-
     width: 34px;
     height: 34px;
     margin-bottom: 186px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,7 +100,7 @@ background-image: linear-gradient(rgba(12,
         align-items: center;
         justify-content: flex-start;
         flex-direction: column;
-        gap: 32px;
+        gap: 24px;
 }
 .nav-item {
 }
@@ -155,13 +130,15 @@ font-weight: 500;
 
 }
  .nav-menu-link:hover,
- .nav-menu-link:focus {}
+ .nav-menu-link:focus {
+    color: #0c0c0c;
+ }
 .soc-list {
     display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
 }
 .soc-item {
     width: 36px;
@@ -180,12 +157,13 @@ font-weight: 500;
     opacity: 0.8;
 }
 .soc-link:hover,
-.soc-link:focus {}
+.soc-link:focus {
+    fill: #fbfbfb;
+}
 
 .mobile-menu-close:hover,
 .mobile-menu-close:focus {
-    
-
+   
 }
 
 .mobile-menu-close:hover .icon-close,
@@ -193,30 +171,35 @@ font-weight: 500;
     
 }
 
+
 @media screen and (min-width: 768px) {
+    .header {
+    padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    .mobile-menu-container {
+    padding-top: 310px;
+    padding-bottom: 50px;
+    }
+    .mobile-menu-close {
+    top: 26px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 244px;
+    }
+        .nav-list {
+        gap: 32px;
+        }
     .mobile-menu {
-        background-image: linear-gradient(rgba(12,
-                    12,
-                    12,
-                    0.92), rgba(12,
-                    12,
-                    12,
-                    0.92)),
-            url(../img/header/image71-tablet.jpg);
+        background-image: url(../img/header/image71-tablet.jpg);
     }
     
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .mobile-menu {
-        background-image: linear-gradient(rgba(12,
-            12,
-            12,
-            0.92), rgba(12,
-                12,
-                12,
-                0.92)),
-            url(../img/header/image71-tablet2x.jpg);
+        background-image: url(../img/header/image71-tablet2x.jpg);
     }
 }
 }
@@ -253,6 +236,10 @@ font-weight: 500;
         border: 1px solid rgba(12, 12, 12, 0.1);
         fill: #0c0c0c;
         }
+        .soc-link:hover,
+        .soc-link:focus {
+         fill: #3350e9;
+                }
         .burger-btn {
             display: none;
         }
