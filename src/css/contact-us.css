@@ -4,7 +4,9 @@
 picture {
     flex-shrink: 0;
 }
-
+body {
+    font-family: "Gilroy", sans-serif;
+}
 .contact-us-h {
     font-weight: 600;
     /* font-size: 48px; */
