@@ -32,9 +32,7 @@ body {
     /* padding: 50px 60px; */
     padding: 48px 28px;
     /* max-width: 460px; */
-    max-width: 279px;
     /* height: 456px; */
-    height: 416px;
     display: flex;
     flex-direction: column;
 }
@@ -164,8 +162,6 @@ body {
     }
     .form {
         padding: 50px 122px;
-        min-width: 460px;
-        height: 456px;
     }
     .form-div {
         height: 372px;
@@ -226,8 +222,6 @@ body {
     }
     .form {
         padding: 50px 60px;
-        max-width: 460px;
-        height: 456px;
     }
     .form-div {
         height: 456px;
