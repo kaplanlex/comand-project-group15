@@ -56,7 +56,7 @@ background-image: linear-gradient(rgba(12,
             12,
             12,
             0.92)),
-    url(../img/);
+    url(../img/header/image71-mobile.jpg);
 
     position: fixed;
     top: 0;
@@ -79,7 +79,7 @@ background-image: linear-gradient(rgba(12,
                 12,
                 12,
                 0.92)),
-            url(../images/people-office-mob-2x.jpg);
+            url(../img/header/image71-mobile2x.jpg);
     }
 }
 .mobile-menu.is-open {
@@ -202,7 +202,7 @@ font-weight: 500;
                     12,
                     12,
                     0.92)),
-            url(../images/people-office-mob-2x.jpg);
+            url(../img/header/image71-tablet.jpg);
     }
     
 @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -216,7 +216,7 @@ font-weight: 500;
                 12,
                 12,
                 0.92)),
-            url(../images/people-office-mob-2x.jpg);
+            url(../img/header/image71-tablet2x.jpg);
     }
 }
 }
