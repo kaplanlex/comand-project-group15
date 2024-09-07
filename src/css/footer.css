@@ -119,5 +119,7 @@
         color: rgba(251, 251, 251, 0.5);
 }
 @media (min-width: 768px) {
-    
+    .container{
+        
+    }
 }
