@@ -1,3 +1,123 @@
-footer {
 
+.footer-web .container {
+    padding: 40px 28px 28px 28px;
+    border-radius: 30px;
+    background: #0c0c0c;
+}
+.container-logoandcontacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.logo-links {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-right: 30px;
+}
+.footer-logo {
+    font: 500 16px "Gilroy", sans-serif;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+.links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.footer-links-list {
+    border: 1px solid rgba(251, 251, 251, 0.1);
+        border-radius: 10px;
+        padding: 8px;
+        width: 34px;
+        height: 34px;
+}
+.link-svg {
+    fill: #fbfbfb;
+}
+.footer-tel {
+    font: 500 12px / 1.33333 "Gilroy", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fbfbfb;
+    border: 1px solid #000;
+    width: 152px;
+    height: 44px;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 16px;
+    padding: 14px 0 14px 0;
+}
+.footer-tel:hover {
+    color: #0c0c0c;
+    background: #fbfbfb;
+}
+.footer-text {
+    font: 600 20px / 1.2 "Gilroy", sans-serif;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+        margin-bottom: 92px;
+        
+}
+.container-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 49px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom:  1px solid rgba(251, 251, 251, 0.1);
+}
+.footer-nav-lists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    row-gap: 8px;
+}
+.page-list {
+    font: 500 12px / 1.33333 "Gilroy", sans-serif;
+    text-align: center;
+    color: #fbfbfb;
+}
+.footer-address {
+    font: 500 12px / 1.33333 "Gilroy", sans-serif;
+    color: #fbfbfb;
+    text-align: center;
+}
+.footer-info-text {
+    font: 500 10px / 1.4 "Gilroy", sans-serif;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 8px;
+
+}
+.footer-info-text:focus {
+    opacity: 0.9;
+}
+.footer-info-text:hover {
+    opacity: 0.9;
+}
+.container-footer-info-link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-info-link {
+        font: 500 10px / 1.4 "Gilroy", sans-serif;
+        letter-spacing: -0.02em;
+        color: rgba(251, 251, 251, 0.5);
+}
+@media (min-width: 768px) {
+    
 }
