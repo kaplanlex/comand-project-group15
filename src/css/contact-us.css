@@ -81,6 +81,7 @@ picture {
 }
 .input-form:hover,
 .input-form:focus {
+    outline: none;
     border-color: #3350e9;
 } 
 .email-div {
