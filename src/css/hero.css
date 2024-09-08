@@ -1,0 +1,143 @@
+.section.hero-section {
+  padding: 80px 0 60px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: row;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+
+.hero-title-span {
+  color: #3350e9;
+}
+
+.container-text-wrap > .hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
+}
+
+.down-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 28px;
+}
+
+.down-link:hover,
+.down-link:focus {
+  color: #3350e9;
+}
+
+.hero-section > .container-hero-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-image {
+  border-radius: 30px;
+  max-width: 335px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section.hero-section {
+    padding: 80px 0;
+  }
+
+  .hero-list {
+  }
+
+  .hero-list-item {
+  }
+
+  .hero-list {
+    display: flex;
+    gap: 11px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    max-width: 557px;
+    height: auto;
+  }
+
+  .hero-text {
+    max-width: 480px;
+    height: auto;
+  }
+
+  .container-text-wrap > .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .container-images-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 180px;
+
+    width: 136px;
+    height: auto;
+  }
+
+  .hero-image {
+    max-width: 704px;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section.hero-section {
+    padding: 80px 0 100px 0;
+  }
+
+  .hero-list {
+    gap: 407px;
+  }
+
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.88;
+
+    max-width: 597px;
+    height: auto;
+  }
+
+  .container-text-wrap > .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .container-images-wrap {
+    row-gap: 189px;
+
+    width: 146;
+    height: auto;
+  }
+
+  .hero-image {
+    max-width: 1150px;
+  }
+}

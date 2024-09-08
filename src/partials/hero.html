@@ -1,39 +1,46 @@
 <!-- #region section hero -->
 <section class="section hero-section">
   <div class="container">
-    <h1 class="hero-title">
-      Welcome to our <span class="hero-title-span">collection</span> of premium
-      watches
-    </h1>
-    <p class="hero-text">
-      Our watches are not just timepieces, but also an expression of your
-      personality and lifestyle. From classic designs to modern ones, we have a
-      watch to suit every taste and occasion.
-    </p>
-    <a class="down-link" href="#footer">Scroll down</a>
-  </div>
-  <div class="container-hero-image-absolute">
-
+    <ul class="hero-list">
+      <li class="hero-list-item">
+        <div class="container-text-wrap">
+          <h1 class="hero-title">
+            Welcome to our <span class="hero-title-span">collection</span> of
+            premium watches
+          </h1>
+          <p class="hero-text">
+            Our watches are not just timepieces, but also an expression of your
+            personality and lifestyle. From classic designs to modern ones, we
+            have a watch to suit every taste and occasion.
+          </p>
+        </div>
+      </li>
+      <li class="hero-list-item">
+        <div class="container-images-wrap">
+          <a class="down-link" href="#footer">Scroll down</a>
+        </div>
+      </li>
+    </ul>
   </div>
 
   <div class="container-hero-image">
     <picture>
       <source
-        media="(min-widht:1280px)"
+        media="(min-width: 1280px)"
         srcset="
           ../img/hero/Rectangle-10-desktop-1x.jpg 1x,
           ../img/hero/Rectangle-10-desktop-2x.jpg 2x
         "
       />
       <source
-        media="(min-widht:768px)"
+        media="(min-width: 768px)"
         srcset="
           ../img/hero/Rectangle-10-tablet-1x.jpg 1x,
           ../img/hero/Rectangle-10-tablet-2x.jpg 2x
         "
       />
       <source
-        media="(max-widht:767px)"
+        media="(max-width: 767px)"
         srcset="
           ../img/hero/Rectangle-10-mobile-1x.jpg 1x,
           ../img/hero/Rectangle-10-mobile-2x.jpg 2x
@@ -43,6 +50,7 @@
         src="../img/hero/Rectangle-10-desktop-1x.jpg"
         alt="Watches"
         width="1150px"
+        class="hero-image"
       />
     </picture>
   </div>
