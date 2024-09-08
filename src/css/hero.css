@@ -4,6 +4,7 @@
   align-items: flex-start;
   justify-content: row;
   flex-direction: column;
+  background-color: #fbfbfb;
 }
 
 .hero-title {
@@ -28,6 +29,31 @@
   margin-bottom: 28px;
 }
 
+.hero-images-list {
+  display: flex;
+  position: relative;
+}
+
+.hero-list-item.content-images-wrap {
+  height: 44px;
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.hero-images-item {
+  max-width: 44px;
+  height: auto;
+
+  border-radius: 100%;
+  stroke-width: 2px;
+  stroke: #fbfbfb;
+  position: absolute;
+}
+
+/* .container-images-wrap {
+  position: relative;
+} */
+
 .down-link {
   font-weight: 500;
   font-size: 14px;
@@ -38,7 +64,7 @@
   color: #0c0c0c;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 28px;
+  align-items: flex-end;
 }
 
 .down-link:hover,
@@ -57,19 +83,54 @@
   height: auto;
 }
 
+/* #region media */
+
+@media screen and (max-width: 767px) {
+  .hero-images-item.hero-images-item-two {
+    z-index: 2;
+    left: 32px;
+  }
+  .hero-images-item.hero-images-item-three {
+    z-index: 3;
+    left: 64px;
+  }
+  .down-link {
+    position: absolute;
+    top: 26px;
+    right: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .section.hero-section {
     padding: 80px 0;
   }
 
+  .hero-images-item {
+    max-width: 56px;
+    height: auto;
+  }
+
+  .hero-images-item.hero-images-item-two {
+    z-index: 2;
+  }
+
+  .hero-images-item.hero-images-item-three {
+    z-index: 3;
+    right: 0;
+  }
+
   .down-link {
     font-size: 20px;
     line-height: 1;
+    position: absolute;
+    bottom: 0;
   }
 
   .hero-list {
     display: flex;
     gap: 11px;
+    margin-bottom: 40px;
   }
 
   .hero-title {
@@ -86,7 +147,12 @@
   .container-text-wrap > .hero-text {
     font-size: 16px;
     line-height: 1.25;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+  }
+
+  .hero-list-item.content-images-wrap {
+    height: auto;
+    margin-bottom: 0;
   }
 
   .container-images-wrap {
@@ -98,6 +164,11 @@
 
     width: 136px;
     height: auto;
+    margin-bottom: 0;
+  }
+
+  .hero-images-item-one {
+    right: 80px;
   }
 
   .hero-image {
@@ -140,3 +211,5 @@
     max-width: 1150px;
   }
 }
+
+/* #endregion media */
