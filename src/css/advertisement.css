@@ -1,0 +1,25 @@
+.advert-img{
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/advertisement/mobile.jpg);
+    
+}
+@media screen and (min-resolution:192dpi) {
+    .advert-img {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/advertisement/mobile2x.jpg);
+    }
+}
+
+
+
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    
+    
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+
+
+}
+    
