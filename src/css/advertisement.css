@@ -1,11 +1,35 @@
+:root {
+    --main: #0c0c0c;
+    --accent: #3350e9;
+    --background: #fbfbfb;
+    --cards: #f3f3f3;
+}
 .advert-img{
+    background-color: #2e2f42;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/advertisement/mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 @media screen and (min-resolution:192dpi) {
     .advert-img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/advertisement/mobile2x.jpg);
     }
+}
+.advert-text{
+    font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: var(--background);
+}
+.advert-color{
+    color: rgba(251, 251, 251, 0.5);
 }
 
 
