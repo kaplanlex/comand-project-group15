@@ -62,6 +62,7 @@
         text-align: center;
         color: #fbfbfb;
         margin-bottom: 92px;
+        padding: 0 10px 0 10px;
 }
 .container-nav {
     display: flex;
@@ -154,7 +155,9 @@
         letter-spacing: -0.02em;
         text-align: center;
         color: #fbfbfb;
-        margin: 0 50px 0 50px;
+        width: 524px;
+        margin: 0 auto;
+        padding: 0;
     }
     .container-nav {
         justify-content: space-between;
@@ -197,12 +200,18 @@
         width: 523px;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -40%);
     }
     .footer-tel {
         margin-bottom: 0;
     }
     .footer-text {
         margin: 0;
+    }
+    .container-nav {
+        padding-bottom: 46px;
+    }
+    .footer-nav-lists {
+        gap: 40px;
     }
 }
