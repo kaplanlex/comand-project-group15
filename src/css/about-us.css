@@ -132,7 +132,6 @@
         max-height: 512px;
         width: 100%;
         background-color: rgba(12, 12, 12, 0.2),
-        url("path_to_image");
     }
 
 }   
@@ -142,3 +141,5 @@
         display: none;
     }
   }
+
+  
