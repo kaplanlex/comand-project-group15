@@ -69,6 +69,7 @@
   background-color: #0c0c0c;
   background-image: url(../img/header/image71-mobile.jpg);
   top: 0;
+  background-size: 100%;
   right: 0;
   position: fixed;
   background-repeat: no-repeat;
@@ -78,7 +79,7 @@
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 100%;
   height: 100%;
 }
 
@@ -196,6 +197,7 @@
   .mobile-menu-container {
     padding-top: 310px;
     padding-bottom: 50px;
+    
   }
   .mobile-menu-close {
     top: 26px;
