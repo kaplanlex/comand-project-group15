@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="about-box">
+    <section class="container about-box">
         <div class="about-info">
             <h2 class="about-title">About Us</h2>
             <div class="about-info-text">
@@ -25,14 +25,14 @@
                 ./img/about-us/Rectangle-11-desktop-1x.jpg 1x,
                 ./img/about-us/Rectangle-11-desktop-2x.jpg 2x" 
                 media="(min-width: 1280px)">
-                <source srcset="
-                ./img/about-us/Rectangle-11-tablet-1x.jpg 1x,
-                ./img/about-us/Rectangle-11-tablet-2x.jpg 2x" 
-                media="(min-width: 768px)">
-                <source srcset="
-                ./img/about-us/Rectangle-12-mobile-1x.jpg 1x,
-                ./img/about-us/Rectangle-12-mobile-2x.jpg 2x" 
-                media="(max-width: 767px)">
+                <source
+                srcset="
+                  ./img/about-us/Rectangle-11-tablet-1x.jpg 1x,
+                  ./img/about-us/Rectangle-11-tablet-2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+                
                 <img class="about-rectangle" 
                 src="./img/about-us/Rectangle-12-mobile-1x.jpg" 
                 alt="Rectangle" width="335"
