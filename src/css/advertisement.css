@@ -31,6 +31,9 @@
     
 }
 @media screen and (min-resolution:192dpi) {
+    .adv-section{
+        margin-bottom: 60px;
+    }
     .advert-img {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/advertisement/mobile2x.jpg);
     }
@@ -73,10 +76,10 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-    .container {
-            max-width: 768px;
-            padding: 0 32px;
-        }
+    .adv-section{
+        margin-bottom: 80px;
+    }
+    
     .advert-img{
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(1, 1, 1, 0.7)), url(../img/advertisement/tab.jpg);
             padding: 80px 64px 112px 64px;
@@ -106,10 +109,10 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-    .container {
-            max-width: 1280px;
-            padding: 0 65px;
-        }
+    .adv-section{
+        margin-bottom: 100px;
+    }
+   
          .advert-img {
              background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(1, 1, 1, 0.7)), url(../img/advertisement/image-70-1x.jpg);
              padding: 83px 80px 83px 80px;

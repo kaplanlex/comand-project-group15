@@ -4,6 +4,9 @@
 picture {
     flex-shrink: 0;
 }
+.contact-us{
+    margin-bottom: 60px;
+}
 
 .contact-us-h {
     font-weight: 600;
@@ -147,7 +150,9 @@ picture {
     margin-top: 20px;
 }
 @media only screen and (min-width: 768px) {
-   
+    .contact-us{
+        margin-bottom: 80px;
+    }
     .contact-us-h {
         margin-top: 80px;
         font-size: 48px;
@@ -205,7 +210,9 @@ picture {
 }
 
 @media only screen and (min-width: 1280px) {
-   
+    .contact-us{
+        margin-bottom: 100px;
+    }
     .contact-us-h {
         margin-top: 100px;
     }
