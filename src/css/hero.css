@@ -37,7 +37,6 @@
 
 .hero-images-list {
   display: flex;
-  position: relative;
 }
 
 .hero-images-item {
@@ -201,6 +200,26 @@
 
   .container-images-wrap {
     row-gap: 189px;
+    min-width: 146px;
+  }
+
+  .hero-images-item {
+    max-width: 60px;
+  }
+
+    .hero-images-item-one {
+    z-index: 1;
+    right: 86px;
+  }
+
+  .hero-images-item.hero-images-item-two {
+    z-index: 2;
+    right: 42px;
+  }
+
+  .hero-images-item.hero-images-item-three {
+    z-index: 3;
+    right: 0;
   }
 
   .hero-image {
