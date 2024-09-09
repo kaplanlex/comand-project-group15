@@ -69,8 +69,10 @@
   background-color: #0c0c0c;
   background-image: url(../img/header/image71-mobile.jpg);
   top: 0;
-  background-size: 100%;
   right: 0;
+  background-position: center;
+  background-size: cover;
+
   position: fixed;
   background-repeat: no-repeat;
   background-position: top right;
@@ -79,7 +81,7 @@
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 200px;
   height: 100%;
 }
 
@@ -181,6 +183,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-menu-container {
+    width: 330px;
+    background-position: center;
+    background-size: cover;
+  }
   .logo {
     font-size: 20px;
   }
@@ -197,7 +204,6 @@
   .mobile-menu-container {
     padding-top: 310px;
     padding-bottom: 50px;
-    
   }
   .mobile-menu-close {
     top: 26px;
