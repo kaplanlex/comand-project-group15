@@ -138,7 +138,7 @@
 
 .nav-menu-link.current {
   position: relative;
-  
+  padding-bottom: 10px;
 }
 
 .nav-menu-link.current::after {
