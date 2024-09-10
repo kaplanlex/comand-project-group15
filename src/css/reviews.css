@@ -1,0 +1,144 @@
+/* upd 10.09 */
+
+/* container for 375 */
+
+.reviews {
+    min-width: 375px;
+}
+
+.reviews-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* styles for the section title named 'reviews' */
+
+.reviews-section-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+    }
+
+/* styles for the whole ul */
+
+.reviews-list {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+/* hiding the overflow (scroll is not visible */
+
+.reviews-list::-webkit-scrollbar {
+    display: none;
+}
+
+/* styles for the single item in the list */
+
+.reviews-list-item {
+background-color: #f3f3f3;
+border-radius: 30px;
+padding: 32px 36px;
+min-width: 335px;
+height: 262px;
+margin: 0 0 0 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box;
+
+}
+
+/* styles for the reviews image */
+
+.review-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+/* styles for h3 (names John Wax, Victoria Romashenko, Anastasia Trachuk) */
+
+.reviews-names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+letter-spacing: -0.02em;
+text-align: center;
+color: #0c0c0c;
+margin-bottom: 8px;
+}
+
+/* styles for the review text */
+
+.reviews-text {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(12, 12, 12, 0.4);
+text-align: center;
+display: flex;
+}
+
+@media screen and (min-width: 768px){
+    .reviews {
+    margin-bottom: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .reviews-section-title {
+    font-size: 48px;
+    line-height: 0.91;
+    margin-bottom: 40px;
+    }
+
+    .reviews-list {
+    min-width: 704px;
+    gap: 16px;
+}
+
+.reviews-list-item {
+    min-width: 344px;
+    height: 272px;
+    box-sizing: border-box;
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-container {
+    min-width: 1150px;
+    }
+
+    .reviews {
+    margin-bottom: 100px;
+    }
+
+    .reviews-list {
+    min-width: 1250px;
+    overflow-x: hidden;
+    margin-right: 65px;
+    gap: 20px;
+    }
+
+    .reviews-section-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    }
+    
+    .reviews-list-item {
+    min-width: 370px;
+    height: 272px;
+    display: flex;
+    }
+
+    .reviews-text {
+    max-width: 298px;
+    }
+}
