@@ -1,4 +1,6 @@
-
+footer {
+    margin: 0 auto;
+}
 .footer-web .container {
     padding: 40px 28px 28px 28px;
     border-radius: 30px;
@@ -125,6 +127,9 @@
         color: rgba(251, 251, 251, 0.5);
 }
 @media (min-width: 768px) {
+    footer {
+        max-width: 704px;
+        }
     .footer-web .container {
         padding: 40px 40px 28px 40px;
     }
@@ -195,6 +200,9 @@
     }
 }
 @media (min-width: 1280px) {
+    footer {
+            max-width: 1150px;
+        }
     .container-logoandcontacts {
         position: relative;
         margin-bottom: 126px;
