@@ -8,6 +8,7 @@
 
 .reviews-container {
     display: flex;
+    gap: 20px;
 }
 
 /* styles for the section title named 'reviews' */
@@ -51,6 +52,7 @@ display: flex;
 align-items: center;
 flex-direction: column;
 box-sizing: border-box;
+
 }
 
 /* styles for the reviews image */
@@ -87,6 +89,12 @@ text-align: center;
 display: flex;
 }
 
+@media screen and (min-width: 768px){
+    .reviews {
+        
+        margin-bottom: 80px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
     .reviews-section-title {
@@ -121,6 +129,11 @@ display: flex;
     min-width: 1150px;
 }
 
+  
+    .reviews {
+        
+        margin-bottom: 100px;
+    }
     .reviews-list {
     min-width: 1250px;
     overflow-x: hidden;

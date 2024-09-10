@@ -1,0 +1,152 @@
+
+.about-section{
+    
+        
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 60px;
+}
+.about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 20px;
+    max-width: 375px;
+    justify-content: center;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    max-width: 335px;
+    padding: 40px 20px;
+    justify-content: space-between;
+}
+
+.about-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
+
+.about-info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    margin-bottom: 20px;
+}
+
+.about-btn {
+    width: 160px;
+    height: 48px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: #3350e9;
+    border-radius: 16px;
+    border: none;
+}
+
+.about-btn:hover,
+.about-btn:focus {
+    background: #1f3cd4;
+}
+
+.about-imag {
+    border-radius: 30px;
+    max-width: 335px;
+    max-height: 446px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.2), 
+    
+}
+
+/* tablet */
+
+@media only screen and (min-width: 768px) {
+    .about-section{
+
+        margin-bottom: 80px;
+    }
+    .about-box {
+        gap: 40px;
+        padding: 0 32x;
+        min-width: 768px;
+        max-width: 1279px;
+    }
+
+    .about-info {
+        flex-wrap: nowrap;
+        border-radius: 50px;
+        min-width: 584px;
+        max-width: 704px;
+        padding: 80px 60px;
+        width: 100%;
+        
+    }
+
+    .about-title {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 40px;
+    }
+
+    .about-info-text {
+        gap: 20px;
+        margin-bottom: 60px;
+    }
+
+    .about-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        width: 584px;
+    }
+
+    .about-imag {
+        border-radius: 50px;
+        min-width: 704px;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(12, 12, 12, 0.2),
+    }
+}   
+
+/* descktop */
+
+@media only screen and (min-width: 1280px) {
+
+    .about-section{
+        display: none;
+    }
+    .about-box{
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 65px;
+        min-width: 1280px;
+        height: 532px;
+        flex-direction: row;
+
+    }
+  }
+
+  
