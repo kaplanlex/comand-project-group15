@@ -24,7 +24,7 @@ picture {
     /* width: 580px;
     height: 556px; */
     width: 335px;
-    height: 512px;
+    
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -160,7 +160,7 @@ picture {
     }
     .div-form {
         width: 704px;
-        height: 556px;
+        
     }
     .form {
         padding: 50px 122px;
