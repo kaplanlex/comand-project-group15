@@ -54,6 +54,7 @@
 .sale-img-card {
   width: 52px;
   height: 54px;
+  padding: 13px 14px;
 }
 
 .sale-gen-img-card {
@@ -64,7 +65,7 @@
 }
 .sale-gen-img {
   width: 235px;
-  height: 285px;
+  
   /* transform: rotate(-180deg); */
 }
 
