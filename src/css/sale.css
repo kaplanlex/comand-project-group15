@@ -191,7 +191,7 @@
   }
   .sale-img-item {
     border-radius: 20px;
-    padding: 16px auto;
+    padding: 16px 18px;
   }
   .sale-img-card {
     width: 96px;
@@ -199,7 +199,7 @@
   }
   .sale-gen-img-card {
     border-radius: 50px;
-    padding: 80px auto;
+    padding: 80px 112px;
   }
   .sale-gen-img {
     width: 328px;
@@ -251,7 +251,7 @@
     flex-direction: row;
   }
   .sale-gen-img-card {
-    padding: 80px auto;
+    padding: 80px 50px;
   }
   .sale-review-title {
     width: 389px;
