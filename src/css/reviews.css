@@ -14,14 +14,14 @@
 /* styles for the section title named 'reviews' */
 
 .reviews-section-title {
-font-weight: 600;
-font-size: 32px;
-line-height: 1;
-letter-spacing: -0.02em;
-color: #0c0c0c;
-margin-bottom: 24px;
-margin-left: 20px;
-}
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    }
 
 /* styles for the whole ul */
 
@@ -137,16 +137,16 @@ display: flex;
     .reviews-list {
     min-width: 1250px;
     overflow-x: hidden;
-    margin-left: 65px;
+    
     margin-right: 65px;
     gap: 20px;
     }
 
     .reviews-section-title {
-    font-size: 48px;
-    margin-left: 65px;
-    }
-
+        font-size: 48px;
+        
+        }
+    
     .reviews-list-item {
     min-width: 370px;
     height: 272px;
