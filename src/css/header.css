@@ -34,8 +34,8 @@
   padding: 0;
   margin: 0;
   border: none;
-  
-  border: none;
+width: 34px;
+height: 34px;
   background-color: transparent;
 }
 
@@ -188,6 +188,10 @@
   .header{
     padding: 26px 0;
   }
+  .burger-btn {
+    width: 40px;
+    height: 40px;
+  }
   .mobile-menu {
     z-index: 4;
   }
@@ -200,7 +204,11 @@
     font-size: 20px;
   }
 
- 
+.soc-mob-list {
+    margin-top: auto;
+        margin-bottom: 50px;
+    
+}
 
 
 
@@ -233,7 +241,7 @@
 
 @media screen and (min-width: 1280px) {
   .header{
-    padding: 30px 0;
+    padding: 26px 0;
   }
   .header-nav-menu {
     display: flex;
