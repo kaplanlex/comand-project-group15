@@ -23,6 +23,7 @@
     max-width: 335px;
     padding: 40px 20px;
     justify-content: space-between;
+    
 }
 
 .about-title {
@@ -155,7 +156,9 @@
  .about-imag {
      min-width: 530px;
      min-height: 532px;
+     
  }
+ 
 
   }
 
