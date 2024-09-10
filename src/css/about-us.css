@@ -98,7 +98,9 @@
         flex-wrap: nowrap;
         border-radius: 50px;
         min-width: 584px;
+        max-width: 704px;
         padding: 80px 60px;
+        width: 100%;
         
     }
 
