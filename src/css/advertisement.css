@@ -76,10 +76,8 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-    .container {
-            max-width: 768px;
-            padding: 0 32px;
-        }
+  
+    
     .advert-img{
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(1, 1, 1, 0.7)), url(../img/advertisement/tab.jpg);
             padding: 80px 64px 112px 64px;
@@ -109,10 +107,8 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-    .container {
-            max-width: 1280px;
-            padding: 0 65px;
-        }
+ 
+   
          .advert-img {
              background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(1, 1, 1, 0.7)), url(../img/advertisement/image-70-1x.jpg);
              padding: 83px 80px 83px 80px;

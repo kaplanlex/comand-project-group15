@@ -1,16 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
+p {  
   margin: 0;
 }
-
+li{
+  margin: 0;
+  padding: 0;
+}
 p:last-child {
   margin-bottom: 0;
-}
+}  
 
 ul,ol {
   margin: 0;
@@ -21,6 +30,8 @@ ul,ol {
 a {
   color: currentColor;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -36,3 +47,7 @@ img {
 body {
   font-family: 'Gilroy', sans-serif;
 }
+main{
+  flex-grow: 1;
+}
+
