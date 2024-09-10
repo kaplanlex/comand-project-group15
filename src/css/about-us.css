@@ -76,7 +76,7 @@
     max-width: 335px;
     max-height: 446px;
     width: 100%;
-    background-color: rgba(12, 12, 12, 0.2), 
+    background-color: rgba(12, 12, 12, 0.2);
     
 }
 
@@ -89,7 +89,7 @@
     }
     .about-box {
         gap: 40px;
-        padding: 0 32x;
+        padding: 0 32px;
         min-width: 768px;
         max-width: 1279px;
     }
@@ -127,7 +127,7 @@
         min-width: 704px;
         height: 100%;
         width: 100%;
-        background-color: rgba(12, 12, 12, 0.2),
+        background-color: rgba(12, 12, 12, 0.2);
     }
 }   
 

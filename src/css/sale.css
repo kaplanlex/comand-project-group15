@@ -107,7 +107,7 @@
 .sale-price-box {
   display: flex;
   align-items: center;
-  justify-content: baseline;
+  
   flex-direction: row;
   gap: 9px;
   margin-bottom: 28px;
