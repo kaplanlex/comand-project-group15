@@ -135,7 +135,6 @@
 
 @media only screen and (min-width: 1280px) {
 
- 
     .about-box{
         display: flex;
         flex-wrap: nowrap;
@@ -143,8 +142,21 @@
         min-width: 1280px;
         height: 532px;
         flex-direction: row;
-
     }
+
+    .about-info {
+        min-width: 580px;
+    }
+
+.about-text {
+    width: 460px;
+}
+
+ .about-imag {
+     min-width: 530px;
+     min-height: 532px;
+ }
+
   }
 
   
