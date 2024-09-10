@@ -1,5 +1,7 @@
 footer {
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .footer-web .container {
     padding: 40px 28px 28px 28px;
@@ -129,6 +131,7 @@ footer {
 @media (min-width: 768px) {
     footer {
         max-width: 704px;
+        padding: 0;
         }
     .footer-web .container {
         padding: 40px 40px 28px 40px;
@@ -202,6 +205,7 @@ footer {
 @media (min-width: 1280px) {
     footer {
             max-width: 1150px;
+            padding: 0;
         }
     .container-logoandcontacts {
         position: relative;
