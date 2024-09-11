@@ -46,8 +46,6 @@
   gap: 5px;
 }
 .sale-img-item {
-  /* width: 320px;
-  height: auto; */
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
   background-color: #f3f3f3;
@@ -56,6 +54,7 @@
 .sale-img-card {
   width: 52px;
   height: 54px;
+  object-fit: contain;
 }
 
 .sale-gen-img-card {
@@ -69,6 +68,7 @@
 .sale-gen-img {
   width: 235px;
   height: 285px;
+  object-fit: contain;
 }
 
 .sale-review {
