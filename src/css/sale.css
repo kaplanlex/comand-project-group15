@@ -232,10 +232,10 @@
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 40px;
-    width: 584px;
+    max-width: 584px;
   }
   .sale-teg-box {
-    width: 398px;
+    max-width: 398px;
   }
   .sale-teg-item {
     font-size: 14px;
@@ -261,6 +261,6 @@
     width: 389px;
   }
   .sale-review-text {
-    width: 410px;
+    max-width: 410px;
   }
 }
